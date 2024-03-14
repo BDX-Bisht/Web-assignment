@@ -37,13 +37,13 @@ const Caring = () => {
             laudantium sint culpa.
           </p>
         </div>
-        <div className="max-w-6xl m-auto px-4 flex flex-col md:flex-row gap-[2rem] md:gap-[2rem] justify-between items-center my-5">
+        <div className="max-w-6xl m-auto px-4 flex flex-col md:flex-row gap-[5rem] md:gap-[2rem] justify-between items-center my-5">
           {carying.map((item, index) => (
             <div key={index} className="relative pb-[4rem] md:pb-[8rem]">
               <div className="">
                 <img src={item.img} alt="" className="w-[150rem] rounded-sm" />
               </div>
-              <div className="absolute top-[8rem] md:top-[12rem] left-[1rem] rounded-lg py-5 px-6 w-[20rem] bg-[#f6f7fb] flex flex-col gap-[2rem] z-10 shadow-lg items-center justify-center text-center">
+              <div className="absolute top-[8rem] md:top-[12rem] rounded-lg py-5 px-6 mx-[1rem] bg-[#f6f7fb] flex flex-col gap-[2rem] z-10 shadow-lg items-center justify-center text-center">
                 <h1 className="text-gray-600 font-semibold text-[18px]">
                   {item.title}
                 </h1>
